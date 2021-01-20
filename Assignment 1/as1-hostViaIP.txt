@@ -1,0 +1,237 @@
+kidjouchang@ubuntu:~/Desktop$ ifconfig
+enp0s5: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.211.55.3  netmask 255.255.255.0  broadcast 10.211.55.255
+        inet6 fe80::59fe:2e8d:43cb:7a79  prefixlen 64  scopeid 0x20<link>
+        inet6 fdb2:2c26:f4e4:0:ba3c:d41b:ce92:2d4d  prefixlen 64  scopeid 0x0<global>
+        inet6 fdb2:2c26:f4e4:0:35bc:3aa2:9e49:b679  prefixlen 64  scopeid 0x0<global>
+        ether 00:1c:42:5d:bd:4e  txqueuelen 1000  (Ethernet)
+        RX packets 18883  bytes 26284751 (26.2 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4839  bytes 370551 (370.5 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enx0035ff633d9c: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.7.1  netmask 255.255.255.0  broadcast 192.168.7.255
+        ether 00:35:ff:63:3d:9c  txqueuelen 1000  (Ethernet)
+        RX packets 2709  bytes 296854 (296.8 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 3790  bytes 510103 (510.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enx0035ff633d9f: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        ether 00:35:ff:63:3d:9f  txqueuelen 1000  (Ethernet)
+        RX packets 33  bytes 4636 (4.6 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 83  bytes 9794 (9.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 2059  bytes 175760 (175.7 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 2059  bytes 175760 (175.7 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+kidjouchang@ubuntu:~/Desktop$ ping 192.168.7.2
+PING 192.168.7.2 (192.168.7.2) 56(84) bytes of data.
+64 bytes from 192.168.7.2: icmp_seq=1 ttl=64 time=1.46 ms
+64 bytes from 192.168.7.2: icmp_seq=2 ttl=64 time=1.91 ms
+64 bytes from 192.168.7.2: icmp_seq=3 ttl=64 time=1.92 ms
+64 bytes from 192.168.7.2: icmp_seq=4 ttl=64 time=1.34 ms
+64 bytes from 192.168.7.2: icmp_seq=5 ttl=64 time=0.960 ms
+^C
+--- 192.168.7.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4008ms
+rtt min/avg/max/mdev = 0.960/1.517/1.919/0.364 ms
+kidjouchang@ubuntu:~/Desktop$ ssh debian@192.168.7.2
+debian@192.168.7.2's password: 
+Linux beaglebone 4.9.78-ti-r94 #1 SMP PREEMPT Fri Jan 26 21:26:24 UTC 2018 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Tue May  8 06:33:34 2018 from 192.168.7.1
+debian@beaglebone:~$ ls -al /proc/
+total 4
+dr-xr-xr-x 104 root             root                 0 Jan  1  1970 .
+drwxr-xr-x  21 root             root              4096 Jan  1  2000 ..
+dr-xr-xr-x   9 root             root                 0 Jan  1  2000 1
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 10
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 100
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 1004
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 1005
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 101
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 102
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 1029
+dr-xr-xr-x   9 root             root                 0 Jan 16 21:55 1039
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 1056
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 106
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 107
+dr-xr-xr-x   9 root             root                 0 Jan 16 21:55 1071
+dr-xr-xr-x   9 systemd-timesync systemd-timesync     0 Nov  3  2016 1094
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 11
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 1100
+dr-xr-xr-x   9 root             root                 0 May  8  2018 1129
+dr-xr-xr-x   9 messagebus       messagebus           0 May  8  2018 1131
+dr-xr-xr-x   9 root             root                 0 May  8  2018 1139
+dr-xr-xr-x   9 avahi            avahi                0 May  8  2018 1141
+dr-xr-xr-x   9 daemon           daemon               0 May  8  2018 1143
+dr-xr-xr-x   9 root             root                 0 May  8  2018 1145
+dr-xr-xr-x   9 avahi            avahi                0 May  8  2018 1151
+dr-xr-xr-x   9 root             root                 0 May  8  2018 1152
+dr-xr-xr-x   9 root             root                 0 May  8  2018 1154
+dr-xr-xr-x   9 root             root                 0 May  8  2018 1196
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 12
+dr-xr-xr-x   9 root             root                 0 Jan 16 21:55 1205
+dr-xr-xr-x   9 root             root                 0 May  8  2018 1244
+dr-xr-xr-x   9 root             root                 0 May  8  2018 1267
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 13
+dr-xr-xr-x   9 root             root                 0 May  8  2018 1310
+dr-xr-xr-x   9 www-data         www-data             0 Jan 16 21:55 1312
+dr-xr-xr-x   9 www-data         www-data             0 Jan 16 21:55 1315
+dr-xr-xr-x   9 root             root                 0 Jan 16 21:55 1369
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 14
+dr-xr-xr-x   9 root             debian               0 May  8  2018 1439
+dr-xr-xr-x   9 dnsmasq          dip                  0 May  8  2018 1449
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 16
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 17
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 174
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 18
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 19
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 2
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 20
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 21
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 22
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 23
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 24
+dr-xr-xr-x   9 root             root                 0 May  8  2018 2452
+dr-xr-xr-x   9 debian           debian               0 May  8  2018 2458
+dr-xr-xr-x   9 debian           debian               0 May  8  2018 2459
+dr-xr-xr-x   9 debian           debian               0 Jan 16 21:55 2463
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 25
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 26
+dr-xr-xr-x   9 root             root                 0 Jan 16 21:55 2686
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 27
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 28
+dr-xr-xr-x   9 root             root                 0 Jan 16 21:55 2837
+dr-xr-xr-x   9 root             root                 0 Jan 16 21:55 2840
+dr-xr-xr-x   9 root             root                 0 Jan 16 21:55 2845
+dr-xr-xr-x   9 debian           debian               0 Jan 16 21:55 2851
+dr-xr-xr-x   9 debian           debian               0 Jan 16 21:55 2852
+dr-xr-xr-x   9 debian           debian               0 Jan 16 21:55 2867
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 29
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 3
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 30
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 31
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 32
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 33
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 34
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 35
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 36
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 37
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 38
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 5
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 6
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 67
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 68
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 69
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 7
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 70
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 73
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 75
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 8
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 89
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 9
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 90
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 91
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 93
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 95
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 96
+-r--r--r--   1 root             root                 0 Nov  3  2016 apm
+dr-xr-xr-x   4 root             root                 0 Nov  3  2016 asound
+-r--r--r--   1 root             root                 0 Jan 16 21:55 buddyinfo
+dr-xr-xr-x   4 root             root                 0 Nov  3  2016 bus
+-r--r--r--   1 root             root                 0 Jan 16 21:55 cgroups
+-r--r--r--   1 root             root                 0 Jan 16 21:55 cmdline
+-r--r--r--   1 root             root             39329 Jan 16 21:55 config.gz
+-r--r--r--   1 root             root                 0 Jan 16 21:55 consoles
+dr-xr-xr-x   2 root             root                 0 Jan 16 21:55 cpu
+-r--r--r--   1 root             root                 0 Jan 16 21:55 cpuinfo
+-r--r--r--   1 root             root                 0 Jan 16 21:55 crypto
+-r--r--r--   1 root             root                 0 Jan 16 21:55 devices
+lrwxrwxrwx   1 root             root                29 Jan 16 21:55 device-tree -> /sys/firmware/devicetree/base
+-r--r--r--   1 root             root                 0 Jan 16 21:55 diskstats
+dr-xr-xr-x   2 root             root                 0 Jan 16 21:55 driver
+-r--r--r--   1 root             root                 0 Jan 16 21:55 execdomains
+-r--r--r--   1 root             root                 0 Jan 16 21:55 fb
+-r--r--r--   1 root             root                 0 Jan 16 21:55 filesystems
+dr-xr-xr-x   9 root             root                 0 Nov  3  2016 fs
+-r--r--r--   1 root             root                 0 Jan 16 21:55 interrupts
+-r--r--r--   1 root             root                 0 Jan 16 21:55 iomem
+-r--r--r--   1 root             root                 0 Jan 16 21:55 ioports
+dr-xr-xr-x  34 root             root                 0 Nov  3  2016 irq
+-r--r--r--   1 root             root                 0 Jan 16 21:55 kallsyms
+-r--r--r--   1 root             root                 0 Jan 16 21:55 keys
+-r--r--r--   1 root             root                 0 Jan 16 21:55 key-users
+-r--------   1 root             root                 0 May  8  2018 kmsg
+-r--------   1 root             root                 0 Jan 16 21:55 kpagecgroup
+-r--------   1 root             root                 0 Jan 16 21:55 kpagecount
+-r--------   1 root             root                 0 Jan 16 21:55 kpageflags
+-r--r--r--   1 root             root                 0 Jan 16 21:55 loadavg
+-r--r--r--   1 root             root                 0 Jan 16 21:55 locks
+-r--r--r--   1 root             root                 0 Jan 16 21:55 meminfo
+-r--r--r--   1 root             root                 0 Jan 16 21:55 misc
+-r--r--r--   1 root             root                 0 Jan 16 21:55 modules
+lrwxrwxrwx   1 root             root                11 Jan 16 21:55 mounts -> self/mounts
+-r--r--r--   1 root             root                 0 Jan 16 21:55 mtd
+lrwxrwxrwx   1 root             root                 8 Jan 16 21:55 net -> self/net
+-r--r--r--   1 root             root                 0 Jan 16 21:55 pagetypeinfo
+-r--r--r--   1 root             root                 0 Jan 16 21:55 partitions
+-r--r--r--   1 root             root                 0 Jan 16 21:55 sched_debug
+-r--r--r--   1 root             root                 0 Jan 16 21:55 schedstat
+dr-xr-xr-x   2 root             root                 0 Jan 16 21:55 scsi
+lrwxrwxrwx   1 root             root                 0 Jan  1  1970 self -> 2867
+-rw-------   1 root             root                 0 Jan 16 21:55 slabinfo
+-r--r--r--   1 root             root                 0 Jan 16 21:55 softirqs
+-r--r--r--   1 root             root                 0 Jan 16 21:55 stat
+-r--r--r--   1 root             root                 0 Nov  3  2016 swaps
+dr-xr-xr-x   1 root             root                 0 Jan  1  2000 sys
+--w-------   1 root             root                 0 Nov  3  2016 sysrq-trigger
+dr-xr-xr-x   2 root             root                 0 Jan 16 21:55 sysvipc
+lrwxrwxrwx   1 root             root                 0 Jan  1  1970 thread-self -> 2867/task/2867
+-r--r--r--   1 root             root                 0 Jan 16 21:55 timer_list
+-rw-r--r--   1 root             root                 0 Nov  3  2016 timer_stats
+dr-xr-xr-x   4 root             root                 0 Jan 16 21:55 tty
+-r--r--r--   1 root             root                 0 Jan 16 21:55 uptime
+-r--r--r--   1 root             root                 0 Jan 16 21:55 version
+-r--------   1 root             root                 0 Jan 16 21:55 vmallocinfo
+-r--r--r--   1 root             root                 0 Jan 16 21:55 vmstat
+-r--r--r--   1 root             root                 0 Jan 16 21:55 zoneinfo
+debian@beaglebone:~$ cat /proc/version
+Linux version 4.9.78-ti-r94 (root@b2-am57xx-beagle-x15-2gb) (gcc version 6.3.0 20170516 (Debian 6.3.0-18) ) #1 SMP PREEMPT Fri Jan 26 21:26:24 UTC 2018
+debian@beaglebone:~$ cat /proc/uptime 
+8787.34 8652.01
+debian@beaglebone:~$ cat /proc/cpuinfo
+processor	: 0
+model name	: ARMv7 Processor rev 2 (v7l)
+BogoMIPS	: 995.32
+Features	: half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpd32 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x3
+CPU part	: 0xc08
+CPU revision	: 2
+
+Hardware	: Generic AM33XX (Flattened Device Tree)
+Revision	: 0000
+Serial		: 0000000000000000
+debian@beaglebone:~$ exit
+logout
+Connection to 192.168.7.2 closed.
+kidjouchang@ubuntu:~/Desktop$ 
+

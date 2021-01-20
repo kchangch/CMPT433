@@ -1,0 +1,178 @@
+debian
+
+Password: 
+Last login: Sat Jan 16 23:03:14 UTC 2021 on ttyS0
+Linux kchangch-beagle 4.9.78-ti-r94 #1 SMP PREEMPT Fri Jan 26 21:26:24 UTC 2018 armv7l
+⣿⣿⣿⣿⣿⣿⣿⠿⢛⢛⡛⡻⢿⣿⣿⣿⣿⠟⠛⢛⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⢟⢱⡔⡝⣜⣜⢜⢜⡲⡬⡉⢕⢆⢏⢎⢇⢇⣧⡉⠿⣿⣿⣿⣿⣿⣿
+⣿⣿⡟⡱⣸⠸⢝⢅⢆⢖⣜⣲⣵⣴⣱⣈⡣⣋⢣⠭⣢⣒⣬⣕⣄⣝⡻⢿⣿⣿
+⣿⠟⡜⣎⢎⢇⢇⣵⣷⣿⣿⡿⠛⠉⠉⠛⢿⣦⢵⣷⣿⣿⣿⠟⠛⠋⠓⢲⡝⣿
+⢏⢰⢱⣞⢜⢵⣿⣿⣿⣿⣿⠁⠐⠄⠄⠄⠄⢹⣻⣿⣿⣿⠡⠄⠄⠄⠄⠄⠹⣺
+⢕⢜⢕⢕⢵⠹⢿⣿⣿⣿⣿⡀⠸⠗⣀⠄⠄⣼⣻⣿⣿⣿⡀⢾⠆⣀⠄⠄⣰⢳
+⡕⣝⢜⡕⣕⢝⣜⢙⢿⣿⣿⣷⣦⣤⣥⣤⣾⢟⠸⢿⣿⣿⣿⣦⣄⣉⣤⡴⢫⣾
+⡪⡪⣪⢪⢎⢮⢪⡪⡲⢬⢩⢩⢩⠩⢍⡪⢔⢆⢏⡒⠮⠭⡙⡙⠭⢝⣨⣶⣿⣿
+⡪⡪⡎⡮⡪⡎⡮⡪⣪⢣⢳⢱⢪⢝⢜⢜⢕⢝⢜⢎⢧⢸⢱⡹⡍⡆⢿⣿⣿⣿
+⡪⡺⡸⡪⡺⣸⠪⠚⡘⠊⠓⠕⢧⢳⢹⡸⣱⢹⡸⡱⡱⡕⡵⡱⡕⣝⠜⢿⣿⣿
+⡪⡺⡸⡪⡺⢐⢪⢑⢈⢁⢋⢊⠆⠲⠰⠬⡨⡡⣁⣉⠨⡈⡌⢥⢱⠐⢕⣼⣿⣿
+⡪⣪⢣⢫⠪⢢⢅⢥⢡⢅⢅⣑⡨⡑⠅⠕⠔⠔⠄⠤⢨⠠⡰⠠⡂⣎⣼⣿⣿⣿
+⠪⣪⡪⡣⡫⡢⡣⡣⡣⡣⡣⣣⢪⡪⡣⡣⡲⣑⡒⡎⡖⢒⣢⣥⣶⣿⣿⣿⣿⣿
+⢁⢂⠲⠬⠩⣁⣙⢊⡓⠝⠎⠮⠮⠚⢎⡣⡳⠕⡉⣬⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⢐⠐⢌⠐⠅⡂⠄⠄⢌⢉⠩⠡⡉⠍⠄⢄⠢⡁⡢⠠⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿
+Hello Embedded World, from Kidjou Chang!
+Press the Zen cape's Joystick in the direction of the LED.
+UP for LED 0 (top)
+DOWN for LED 3 (bottom)
+LEFT/RIGHT for exit app.
+Press joystick; current score (0 / 0)
+Correct!
+Press joystick; current score (1 / 1)
+Correct!
+Press joystick; current score (2 / 2)
+Incorrect! :(
+Press joystick; current score (2 / 3)
+Correct!
+Press joystick; current score (3 / 4)
+Correct!
+Press joystick; current score (4 / 5)
+Incorrect! :(
+Press joystick; current score (4 / 6)
+Correct!
+Press joystick; current score (5 / 7)
+Correct!
+Your final score was (6 / 8)
+Thank you for playing!
+debian@kchangch-beagle:~$ exit
+logout
+
+
+
+ _   ___     _ _              ______                  _      
+| | / (_)   | (_)             | ___ \                | |     
+| |/ / _  __| |_  ___  _   _  | |_/ / ___  __ _  __ _| | ___ 
+|    \| |/ _` | |/ _ \| | | | | ___ \/ _ \/ _` |/ _` | |/ _ \
+| |\  \ | (_| | | (_) | |_| | | |_/ /  __/ (_| | (_| | |  __/
+\_| \_/_|\__,_| |\___/ \__,_| \____/ \___|\__,_|\__, |_|\___|
+             _/ |                                __/ |       
+            |__/                                |___/        
+
+Today is Sat Jan 16  2021 23:05:12 @ kchangch-beagle
+kchangch-beagle login: debian
+
+Password: 
+Last login: Sat Jan 16 23:04:50 UTC 2021 on ttyS0
+Linux kchangch-beagle 4.9.78-ti-r94 #1 SMP PREEMPT Fri Jan 26 21:26:24 UTC 2018 armv7l
+⣿⣿⣿⣿⣿⣿⣿⠿⢛⢛⡛⡻⢿⣿⣿⣿⣿⠟⠛⢛⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⢟⢱⡔⡝⣜⣜⢜⢜⡲⡬⡉⢕⢆⢏⢎⢇⢇⣧⡉⠿⣿⣿⣿⣿⣿⣿
+⣿⣿⡟⡱⣸⠸⢝⢅⢆⢖⣜⣲⣵⣴⣱⣈⡣⣋⢣⠭⣢⣒⣬⣕⣄⣝⡻⢿⣿⣿
+⣿⠟⡜⣎⢎⢇⢇⣵⣷⣿⣿⡿⠛⠉⠉⠛⢿⣦⢵⣷⣿⣿⣿⠟⠛⠋⠓⢲⡝⣿
+⢏⢰⢱⣞⢜⢵⣿⣿⣿⣿⣿⠁⠐⠄⠄⠄⠄⢹⣻⣿⣿⣿⠡⠄⠄⠄⠄⠄⠹⣺
+⢕⢜⢕⢕⢵⠹⢿⣿⣿⣿⣿⡀⠸⠗⣀⠄⠄⣼⣻⣿⣿⣿⡀⢾⠆⣀⠄⠄⣰⢳
+⡕⣝⢜⡕⣕⢝⣜⢙⢿⣿⣿⣷⣦⣤⣥⣤⣾⢟⠸⢿⣿⣿⣿⣦⣄⣉⣤⡴⢫⣾
+⡪⡪⣪⢪⢎⢮⢪⡪⡲⢬⢩⢩⢩⠩⢍⡪⢔⢆⢏⡒⠮⠭⡙⡙⠭⢝⣨⣶⣿⣿
+⡪⡪⡎⡮⡪⡎⡮⡪⣪⢣⢳⢱⢪⢝⢜⢜⢕⢝⢜⢎⢧⢸⢱⡹⡍⡆⢿⣿⣿⣿
+⡪⡺⡸⡪⡺⣸⠪⠚⡘⠊⠓⠕⢧⢳⢹⡸⣱⢹⡸⡱⡱⡕⡵⡱⡕⣝⠜⢿⣿⣿
+⡪⡺⡸⡪⡺⢐⢪⢑⢈⢁⢋⢊⠆⠲⠰⠬⡨⡡⣁⣉⠨⡈⡌⢥⢱⠐⢕⣼⣿⣿
+⡪⣪⢣⢫⠪⢢⢅⢥⢡⢅⢅⣑⡨⡑⠅⠕⠔⠔⠄⠤⢨⠠⡰⠠⡂⣎⣼⣿⣿⣿
+⠪⣪⡪⡣⡫⡢⡣⡣⡣⡣⡣⣣⢪⡪⡣⡣⡲⣑⡒⡎⡖⢒⣢⣥⣶⣿⣿⣿⣿⣿
+⢁⢂⠲⠬⠩⣁⣙⢊⡓⠝⠎⠮⠮⠚⢎⡣⡳⠕⡉⣬⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⢐⠐⢌⠐⠅⡂⠄⠄⢌⢉⠩⠡⡉⠍⠄⢄⠢⡁⡢⠠⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿
+Hello Embedded World, from Kidjou Chang!
+Press the Zen cape's Joystick in the direction of the LED.
+UP for LED 0 (top)
+DOWN for LED 3 (bottom)
+LEFT/RIGHT for exit app.
+Press joystick; current score (0 / 0)
+Correct!
+Press joystick; current score (1 / 1)
+Incorrect! :(
+Press joystick; current score (1 / 2)
+Correct!
+Press joystick; current score (2 / 3)
+Correct!
+Press joystick; current score (3 / 4)
+Correct!
+Press joystick; current score (4 / 5)
+Incorrect! :(
+Press joystick; current score (4 / 6)
+Correct!
+Press joystick; current score (5 / 7)
+Incorrect! :(
+Your final score was (5 / 8)
+Thank you for playing!
+debian@kchangch-beagle:~$ exit
+logout
+
+
+
+ _   ___     _ _              ______                  _      
+| | / (_)   | (_)             | ___ \                | |     
+| |/ / _  __| |_  ___  _   _  | |_/ / ___  __ _  __ _| | ___ 
+|    \| |/ _` | |/ _ \| | | | | ___ \/ _ \/ _` |/ _` | |/ _ \
+| |\  \ | (_| | | (_) | |_| | | |_/ /  __/ (_| | (_| | |  __/
+\_| \_/_|\__,_| |\___/ \__,_| \____/ \___|\__,_|\__, |_|\___|
+             _/ |                                __/ |       
+            |__/                                |___/        
+
+Today is Sat Jan 16  2021 23:05:36 @ kchangch-beagle
+kchangch-beagle login: debian
+
+Password: 
+Last login: Sat Jan 16 23:05:15 UTC 2021 on ttyS0
+Linux kchangch-beagle 4.9.78-ti-r94 #1 SMP PREEMPT Fri Jan 26 21:26:24 UTC 2018 armv7l
+⣿⣿⣿⣿⣿⣿⣿⠿⢛⢛⡛⡻⢿⣿⣿⣿⣿⠟⠛⢛⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⢟⢱⡔⡝⣜⣜⢜⢜⡲⡬⡉⢕⢆⢏⢎⢇⢇⣧⡉⠿⣿⣿⣿⣿⣿⣿
+⣿⣿⡟⡱⣸⠸⢝⢅⢆⢖⣜⣲⣵⣴⣱⣈⡣⣋⢣⠭⣢⣒⣬⣕⣄⣝⡻⢿⣿⣿
+⣿⠟⡜⣎⢎⢇⢇⣵⣷⣿⣿⡿⠛⠉⠉⠛⢿⣦⢵⣷⣿⣿⣿⠟⠛⠋⠓⢲⡝⣿
+⢏⢰⢱⣞⢜⢵⣿⣿⣿⣿⣿⠁⠐⠄⠄⠄⠄⢹⣻⣿⣿⣿⠡⠄⠄⠄⠄⠄⠹⣺
+⢕⢜⢕⢕⢵⠹⢿⣿⣿⣿⣿⡀⠸⠗⣀⠄⠄⣼⣻⣿⣿⣿⡀⢾⠆⣀⠄⠄⣰⢳
+⡕⣝⢜⡕⣕⢝⣜⢙⢿⣿⣿⣷⣦⣤⣥⣤⣾⢟⠸⢿⣿⣿⣿⣦⣄⣉⣤⡴⢫⣾
+⡪⡪⣪⢪⢎⢮⢪⡪⡲⢬⢩⢩⢩⠩⢍⡪⢔⢆⢏⡒⠮⠭⡙⡙⠭⢝⣨⣶⣿⣿
+⡪⡪⡎⡮⡪⡎⡮⡪⣪⢣⢳⢱⢪⢝⢜⢜⢕⢝⢜⢎⢧⢸⢱⡹⡍⡆⢿⣿⣿⣿
+⡪⡺⡸⡪⡺⣸⠪⠚⡘⠊⠓⠕⢧⢳⢹⡸⣱⢹⡸⡱⡱⡕⡵⡱⡕⣝⠜⢿⣿⣿
+⡪⡺⡸⡪⡺⢐⢪⢑⢈⢁⢋⢊⠆⠲⠰⠬⡨⡡⣁⣉⠨⡈⡌⢥⢱⠐⢕⣼⣿⣿
+⡪⣪⢣⢫⠪⢢⢅⢥⢡⢅⢅⣑⡨⡑⠅⠕⠔⠔⠄⠤⢨⠠⡰⠠⡂⣎⣼⣿⣿⣿
+⠪⣪⡪⡣⡫⡢⡣⡣⡣⡣⡣⣣⢪⡪⡣⡣⡲⣑⡒⡎⡖⢒⣢⣥⣶⣿⣿⣿⣿⣿
+⢁⢂⠲⠬⠩⣁⣙⢊⡓⠝⠎⠮⠮⠚⢎⡣⡳⠕⡉⣬⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⢐⠐⢌⠐⠅⡂⠄⠄⢌⢉⠩⠡⡉⠍⠄⢄⠢⡁⡢⠠⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿
+Hello Embedded World, from Kidjou Chang!
+Press the Zen cape's Joystick in the direction of the LED.
+UP for LED 0 (top)
+DOWN for LED 3 (bottom)
+LEFT/RIGHT for exit app.
+Press joystick; current score (0 / 0)
+Correct!
+Press joystick; current score (1 / 1)
+Incorrect! :(
+Press joystick; current score (1 / 2)
+Correct!
+Press joystick; current score (2 / 3)
+Correct!
+Press joystick; current score (3 / 4)
+Correct!
+Press joystick; current score (4 / 5)
+Exiting app!
+debian@kchangch-beagle:~$ ./mountNFS.sh
+[sudo] password for debian: 
+debian@kchangch-beagle:~$ ls /mnt/remote/
+helloworld_target  motd               nfs_message.txt    
+issue              myApps/            
+debian@kchangch-beagle:~$ ls /mnt/remote/myApps/
+hello
+debian@kchangch-beagle:~$ ls /mnt/remote/
+helloworld_target  issue  motd  myApps  nfs_message.txt
+debian@kchangch-beagle:~$ exit
+logout
+
+
+
+ _   ___     _ _              ______                  _      
+| | / (_)   | (_)             | ___ \                | |     
+| |/ / _  __| |_  ___  _   _  | |_/ / ___  __ _  __ _| | ___ 
+|    \| |/ _` | |/ _ \| | | | | ___ \/ _ \/ _` |/ _` | |/ _ \
+| |\  \ | (_| | | (_) | |_| | | |_/ /  __/ (_| | (_| | |  __/
+\_| \_/_|\__,_| |\___/ \__,_| \____/ \___|\__,_|\__, |_|\___|
+             _/ |                                __/ |       
+            |__/                                |___/        
+
+Today is Sat Jan 16  2021 23:06:57 @ kchangch-beagle
+kchangch-beagle login: 
